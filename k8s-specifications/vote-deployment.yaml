@@ -14,4 +14,4 @@ spec:
       - image: dockersamples/examplevotingapp_vote:before
         name: vote
       nodeSelector:
-        hostname: node2
+        hostname: node1
