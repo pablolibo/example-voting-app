@@ -45,7 +45,7 @@ spec:
       name: api
   selector:
     app: words-api
-  clusterIP: None
+  type: NodePort
 ---
 apiVersion: apps/v1beta1
 kind: Deployment
@@ -80,7 +80,7 @@ spec:
       name: web
   selector:
     app: words-web
-  type: LoadBalancer
+  type: NodePort
 ---
 apiVersion: apps/v1beta1
 kind: Deployment
