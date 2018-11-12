@@ -19,5 +19,3 @@ spec:
       volumes:
       - name: db-data
         emptyDir: {}
-      nodeSelector:
-        hostname: node5

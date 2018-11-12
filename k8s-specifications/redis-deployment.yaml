@@ -19,5 +19,3 @@ spec:
       volumes:
       - name: redis-data
         emptyDir: {}
-      nodeSelector:
-        hostname: node4
