@@ -13,3 +13,5 @@ spec:
       containers:
       - image: dockersamples/examplevotingapp_vote:before
         name: vote
+      nodeSelector:
+        hostname: node2
